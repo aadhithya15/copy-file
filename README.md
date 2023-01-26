@@ -25,15 +25,15 @@ End the program.
 
 ### PROGRAM:
 #To write a program for copying the contents from one file to another file.
-#Developed by:Aadhithya.M
+#Developed by:M.Aadhithya
 #RegisterNumber: 22003465
 
 with open("MyFile.txt","r") as fp:
-  
+   
    x = fp.read()
 
 with open("MyFile2.txt","w") as fp1:
-  
+   
    fp1.write(x)
 ### OUTPUT:
 ![output](1.6.png)
