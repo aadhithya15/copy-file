@@ -32,11 +32,11 @@ End the program.
 
 with open("MyFile.txt","r") as fp:
    
-     x = fp.read()
+    x = fp.read()
 
 with open("MyFile2.txt","w") as fp1:
    
-     fp1.write(x)
+    fp1.write(x)
 ### OUTPUT:
 ![output](1.6.png)
 ![output](1.7.png)
